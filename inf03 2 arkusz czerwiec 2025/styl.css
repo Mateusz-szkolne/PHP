@@ -1,0 +1,103 @@
+* {
+  font-family: Verdana;
+}
+body {
+  display: flex;
+}
+
+header, nav, footer {
+  background-color: MediumPurple;
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 10px dimgray;
+}
+
+nav {
+  padding: 10px;
+}
+
+
+aside {
+  width: 20%;
+  height: 610px;
+}
+
+img {
+  width: 100%;
+  height: 610px;
+}
+
+
+#prawy {
+  width: 80%;
+  background-color: Thistle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+}
+
+button {
+  padding: 6px 10px;
+  background-color: #DDCADD;
+  border: none;
+  cursor: pointer;
+}
+
+
+main {
+  margin: 20px auto;
+  width: 80%;
+  background-color: Thistle;
+  border: 1px solid MediumPurple;
+  padding: 20px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+
+#lista {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#lista li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+
+#lista li:nth-child(odd) {
+  background-color: Thistle;
+}
+
+#lista li:nth-child(even) {
+  background-color: #DDCADD;
+}
+
+#lista li:hover {
+  background-color: Lavender;
+}
+
+#lista button {
+  background-color: MediumPurple;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.wykonane {
+  text-decoration: line-through;
+}
+
+
